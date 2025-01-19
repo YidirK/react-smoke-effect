@@ -13,16 +13,24 @@ npm install --save react-smoke-effect
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import  SmokeScene  from "react-smoke-effect"
+import SmokeImage from "./assets/smoke.png"
 
-import MyComponent from 'react-smoke-effect'
-import 'react-smoke-effect/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <div>
+      <SmokeScene
+        backgroundColor="#D3A863"
+        particleImage={SmokeImage}
+        particleCount={20}
+        baseOpacity={0.4}
+      />
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
