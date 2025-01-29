@@ -1,7 +1,7 @@
 # react-smoke-effect
-
 >  A simple React library to add A Fog / Smoke effect
-
+>
+## [DEMO](https://react-smoke-effect.netlify.app/)
 [![NPM](https://img.shields.io/npm/v/react-smoke-effect.svg)](https://www.npmjs.com/package/react-smoke-effect)  [![NPM](https://img.shields.io/npm-stat/dw/yidirk)](https://www.npmjs.com/package/react-smoke-effect) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ##
@@ -10,6 +10,10 @@
 
 ```bash
 npm install --save react-smoke-effect
+```
+OR
+```bash
+yarn add react-smoke-effect
 ```
 
 ## Usage
@@ -48,6 +52,6 @@ export default App
 
 ## License
 
-MIT © [YidirK](https://github.com/YidirK)
+MIT © [YidirK](https://github.com/YidirK) Powered by Hergol
 
 This module was bootstrapped with [create-react-library](https://www.npmjs.com/package/create-react-library).
